@@ -1,0 +1,6 @@
+- id: goyda
+  name: Goyda
+  description: "Be sure that hooks passed successfully with loud af yell"
+  entry: python pre_commit_hooks/goyda.py
+  language: python
+  files: ".*"
