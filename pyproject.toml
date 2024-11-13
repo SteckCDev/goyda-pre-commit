@@ -1,0 +1,4 @@
+[project]
+name = "goyda-pre-commit"
+version = "0.1"
+dependencies = []
