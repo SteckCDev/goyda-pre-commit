@@ -6,8 +6,7 @@ from pathlib import Path
 from typing import Final
 
 
-BASE_DIR: Final[Path] = Path(__file__).parent
-SOUND_PATH: Final[str] = str(BASE_DIR / "resources" / "goyda.wav")
+SOUND_PATH: Final[str] = "goyda.wav"
 
 
 def main() -> None:
