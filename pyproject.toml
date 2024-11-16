@@ -1,4 +1,3 @@
-[project]
-name = "goyda-pre-commit"
-version = "0.1"
-dependencies = []
+[project]name = "goyda-pre-commit"version = "0.1"dependencies = [][build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
