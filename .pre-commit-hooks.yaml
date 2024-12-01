@@ -1,8 +1,6 @@
 - id: goyda
   name: Goyda
-  description: "Be sure that hooks passed successfully with loud af yell"
-  # entry: goyda-hook
-  # language: python
+  description: "Rest assured that the hooks have passed, hearing loud af sound"
   entry: python goyda.py
   language: system
   files: ".*"

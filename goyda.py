@@ -1,4 +1,3 @@
-import os
 import platform
 import subprocess
 import sys
@@ -8,7 +7,6 @@ from typing import Final
 
 BASE_DIR: Final[Path] = Path(__file__).parent
 SOUND_PATH: Final[Path] = BASE_DIR / "resources" / "goyda.wav"
-print(SOUND_PATH)
 
 
 def main() -> None:
@@ -24,7 +22,7 @@ def main() -> None:
             case _:
                 raise OSError("This operating system isn't supported")
     except Exception as e:
-        print(f"Failed to play sound: {e}", file=sys.stderr)
+        print(f"Goyda failed to be yelled: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
