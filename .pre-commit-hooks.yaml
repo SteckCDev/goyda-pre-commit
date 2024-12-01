@@ -1,6 +1,6 @@
 - id: goyda
   name: Goyda
   description: "Rest assured that the hooks have passed, hearing loud af sound"
-  entry: python goyda.py
-  language: system
+  entry: goyda-hook
+  language: python
   files: ".*"
