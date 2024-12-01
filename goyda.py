@@ -1,3 +1,4 @@
+import os
 import platform
 import subprocess
 import sys
@@ -6,7 +7,8 @@ from typing import Final
 
 
 BASE_DIR: Final[Path] = Path(__file__).parent
-SOUND_PATH: Final[Path] = BASE_DIR / "resources" / "goyda.wav"
+RELATIVE_SOUND_PATH: Final[Path] = BASE_DIR / "resources" / "goyda.wav"
+SOUND_PATH: Final[str] = os.path.abspath(RELATIVE_SOUND_PATH)
 
 
 def main() -> None:
